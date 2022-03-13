@@ -6,7 +6,7 @@
 
 /* UTILITIES */
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
 }
 
@@ -43,9 +43,13 @@ a{
 }
 
 .col{
-  height: 800px;
   width: calc((100% - 100px) / 3);
   float: left;
+
+}
+
+.col-height-fix {
+  height: 1100px;
 }
 
 .center-col{
@@ -54,7 +58,6 @@ a{
 
 #bot-col{
   width: 100%;
-  height: 100px;
   margin-top: 50px;
 }
 
@@ -66,21 +69,13 @@ a{
   float: right;
 }
 
-.width-60{
-  width: 60%;
-  background-color: white;
-  height: 200px;
-}
 
-.width-40{
-  width: 40%;
-  height: 200px;
-}
 
 h2{
   font-size: 50px;
   margin: 60px 0px;
 }
+
 
 /* END UTILITIES */
 
@@ -151,7 +146,7 @@ nav ul li a:hover{
 }
 
 h1{
-  font-size: 100px;
+  font-size: 80px;
   margin: 3% 0px;
 }
 
@@ -238,33 +233,119 @@ h3{
   border-top: 1px solid #909090;
 }
 
+ul.fa-ul{
+  margin-left: 20px; 
+}
+
+.fa-ul .fa-li{
+  color: #005fff;
+}
+
+.fa-ul li{
+  margin: 20px 0px;
+}
+
+.width-60{
+  width: 60%;
+  background-color: white;
+
+}
+
+.width-40{
+  width: 40%;
+  padding-left: 40px;
+}
+
+.width-60 img{
+  width: 100%;
+}
+
+#partner-button{
+  background-color: white;
+  color: #000000;
+  border: 1px solid black;
+}
+
+#partner-button:hover{
+  background-color: #f5f6f6;
+  filter: brightness(1);
+}
+
+.img-col{
+  width: 100%;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.margin-bot{
+  margin-bottom: 100px;
+}
 
 
 
-
-
-.spazio-pubblicitario{
+.spazio-pubblicitario {
   width: 30%;
-  height: 300px;
 }
 
-.text-pubblicitario{
-width:40%;
-height: 300px;
-background-color: #f5f5f5;
+.text-pubblicitario {
+ width:40%;
+   background-color: #f5f5f5;
 }
 
-.img-pubblicita{
+.margin {
+  width: 50%;
+  padding-top: 50%;
+  box-sizing: border-box;
+  border: inset 8px solid rgba(255, 255, 255, 0);
+}
+
+.margin:hover {
+  border: 8px solid rgba(255, 255, 255, 0.5);
+}
+
+.background-green {
+  background-color: #a2d39b;
+}
+
+.background-purple {
+  background-color: #61082c;
+}
+
+.background-celeste {
+  background-color: #1d93ce;
+}
+
+.background-red {
+  background-color: #f91c1d;
+}
+
+/* .img-pubblicita{
   width: 50%;
   border: 1px solid black;
-  background-color: aqua;
+  background-color: red;
+  padding-top: 50%;
+  background-image: url(../img/lonely_planet.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  filter: invert(1);
+  box-shadow:
 }
 
-.img-pubblicita svg{
+.margin{
+  padding: 10px;
+  background-color: #005fff;
+} */
+
+/* .img-pubblicita svg{
   display: block;
   width: 80%;
-  margin: 0 10%;
-}
+  margin: 10%;
+  color: white;
+} */
 
 .post-pubblicita{
   background-color: #b4d0e7;
