@@ -128,6 +128,8 @@ nav ul li a:hover {
   line-height: 20px;
 }
 
+/* BONUS 1 */
+
 .dropdown {
   display: inline-block;
 }
@@ -155,6 +157,7 @@ nav ul li a:hover {
   background-color: #dedee0;
 }
 
+/* /BONUS 1 */
 
 
 /* END HEADER */
@@ -282,8 +285,8 @@ padding: 10px calc((100% - 100px) / 3);
 
 .divisorio-small {
   width: 60px;
-  height: 10px;
-  border-top: 1px solid #909090;
+  height: 40px;
+  border-bottom: 1px solid #dedee0;
 }
 
 ul.fa-ul {
@@ -508,7 +511,7 @@ i.fa-chevron-up{
   display: none;
 }
 
-/* BONUS 2 */
+/* /BONUS 2 */
 
 
 
