@@ -120,7 +120,7 @@ nav ul li a:hover {
   line-height: 20px;
 }
 
-.supporto {
+.dropdown {
   display: inline-block;
 }
 
@@ -131,7 +131,7 @@ nav ul li a:hover {
   padding: 15px 0;
 }
 
-.supporto:hover .content-supporto {
+.dropdown:hover .content-supporto {
   display: block;
   background-color: white;
   line-height: 30px;
@@ -474,6 +474,34 @@ ul.fa-ul {
   top: 45px;
   right: 0;
 }
+
+
+/* BONUS 2 */
+
+.active-text{
+  display: none;
+  line-height: normal;
+  color: #909090;
+}
+
+.border-bot:hover .active-text{
+  display: inline-block;
+}
+
+i.fa-chevron-up{
+  display: none;
+}
+
+.border-bot:hover i.fa-chevron-up{
+  display: inline-block;
+}
+
+.border-bot:hover i.fa-chevron-down{
+  display: none;
+}
+
+/* BONUS 2 */
+
 
 
 
