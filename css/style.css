@@ -19,23 +19,24 @@ body{
 .container{
   margin: auto;
   width: 70%;
-  margin-top: 50px;
 }
 
-.container100{
-  width: 100%;
-}
 
 a{
   text-decoration: none;
 }
 
+a.color-blue{
+  color: #005fff;
+  text-decoration: underline;
+}
+
 
 .button{
+  display: inline-block;
   background-color: #0061ff;
   color: white;
-  line-height: 40px;
-  padding: 10px 30px;
+  padding: 10px 40px;
 }
 
 .button:hover{
@@ -48,7 +49,7 @@ a{
 
 }
 
-.col-height-fix {
+.col-height-1100 {
   height: 1100px;
 }
 
@@ -59,6 +60,7 @@ a{
 #bot-col{
   width: 100%;
   margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .float-left{
@@ -115,9 +117,30 @@ nav ul li a:hover{
   border-bottom: 1px solid #0061ff;
 }
 
-.right{
-  float: right;
+.but-nav{
+  line-height: 20px;
 }
+
+.supporto{
+  display: inline-block;
+}
+
+.content-supporto{
+  opacity: 0.5;
+  position: fixed;
+  z-index: 999;
+}
+
+.supporto:hover .content-supporto {
+  display: block;
+  opacity: 1;
+}
+
+
+/* END HEADER */
+
+/* JUMBO */
+
 
 .jumbotron{
   padding-top: 70px;
@@ -131,22 +154,30 @@ nav ul li a:hover{
   margin: auto;
 }
 
+
 .text-jumbo{
   width: 30%;
+  height: 100%;
+  margin-bottom: -50px;
+}
+
+.margin-top-20{
+  margin-top: 20px;
+  
 }
 
 .img-jumbo{
   width: 70%;
-  height: 500px;
-  
+  margin-bottom: -50px;
 }
 
 .img-jumbo img{
   width: 100%;
+ 
 }
 
 h1{
-  font-size: 80px;
+  font-size: 70px;
   margin: 3% 0px;
 }
 
@@ -163,9 +194,7 @@ h1{
   margin-top: 40px;
 }
 
-
-
-/* END HEADER */
+/* END JUMBO */
 
 /* MAIN */
 
@@ -186,6 +215,10 @@ input[type="radio"] {
 
 input[type="radio"]:checked {
   border: 6px solid #005fff;
+}
+
+label{
+  margin-right: 10px;
 }
 
 .head-col{
@@ -223,7 +256,7 @@ h3{
 }
 
 .button-col{
-  padding: 10px calc((100% - 160px) / 3);
+padding: 10px calc((100% - 100px) / 3);
 }
 
 
@@ -283,6 +316,9 @@ ul.fa-ul{
   margin-bottom: 100px;
 }
 
+.pubblicita{
+  background-color: #f5f5f5; ;
+}
 
 
 .spazio-pubblicitario {
@@ -290,20 +326,48 @@ ul.fa-ul{
 }
 
 .text-pubblicitario {
- width:40%;
-   background-color: #f5f5f5;
+  width:40%;
+  height: 100%;
 }
 
-.margin {
+.container-img {
   width: 50%;
-  padding-top: 50%;
+  position: relative;
   box-sizing: border-box;
-  border: inset 8px solid rgba(255, 255, 255, 0);
+  border: 15px solid rgba(255, 255, 255, 0);
 }
 
-.margin:hover {
-  border: 8px solid rgba(255, 255, 255, 0.5);
+.square-img{
+  padding-top: calc(100%);
 }
+
+.img-sponsor{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.img-sponsor img{
+  width: 100%;
+  filter: invert(1);
+
+}
+
+.container-img:hover {
+  border:  15px solid rgba(255, 255, 255, 0.5);
+}
+
+.text-pubblicitario img{
+  width: 25%;
+}
+
+.text-pubblicitario p{
+  margin: 50px 0px;
+}
+
+
+
 
 .background-green {
   background-color: #a2d39b;
@@ -320,6 +384,24 @@ ul.fa-ul{
 .background-red {
   background-color: #f91c1d;
 }
+
+.background-red2 {
+  background-color: #d5001f;
+}
+
+.background-celeste2 {
+  background-color: #b4d0e7;
+}
+
+.background-blue {
+  background-color: #0d2481;
+}
+
+.background-yellow {
+  background-color: #ffd830;
+}
+
+
 
 /* .img-pubblicita{
   width: 50%;
@@ -349,7 +431,18 @@ ul.fa-ul{
 
 .post-pubblicita{
   background-color: #b4d0e7;
-  height: 300px;
+}
+
+.red{
+  color: #61082c;
+  width: 50%;
+}
+
+#but-white{
+  margin-top: 80px;
+  padding: 10px 50px;
+  color: black;
+  background-color: white;
 }
 
 .faq{
@@ -359,7 +452,14 @@ ul.fa-ul{
 
 .border-bot{
   border-bottom: 1px solid #dedee0;
+  width: 100%;
 }
+
+.border-top{
+  border-top: 1px solid #dedee0;
+}
+
+
 
 
 /* END MAIN */
