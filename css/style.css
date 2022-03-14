@@ -72,7 +72,6 @@ a.color-blue {
 }
 
 
-
 h2 {
   font-size: 50px;
   margin: 60px 0px;
@@ -87,7 +86,7 @@ nav {
   position: fixed;
   left: 0;
   top: 0;
-  height: 70px;
+  height: 72px;
   width: 100%;
   background-color: white;
   z-index: 9999;
@@ -114,7 +113,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  border-bottom: 1px solid #0061ff;
+  border-bottom: 2px solid #0061ff;
 }
 
 .but-nav {
@@ -126,15 +125,28 @@ nav ul li a:hover {
 }
 
 .content-supporto {
-  opacity: 0.5;
+  display: none;
   position: fixed;
   z-index: 999;
+  padding: 15px 0;
 }
 
 .supporto:hover .content-supporto {
   display: block;
-  opacity: 1;
+  background-color: white;
+  line-height: 30px;
 }
+
+.content-supporto span{
+  display: block;
+  padding: 10px;
+}
+
+.content-supporto span:hover{
+  display: block;
+  background-color: #dedee0;
+}
+
 
 
 /* END HEADER */
@@ -351,7 +363,6 @@ ul.fa-ul {
 .img-sponsor img {
   width: 100%;
   filter: invert(1);
-
 }
 
 .container-img:hover {
