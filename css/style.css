@@ -328,7 +328,7 @@ ul.fa-ul {
   border: 1px solid black;
 }
 
-#partner-button:hover {
+#partner-button:hover, #but-white:hover {
   background-color: #f5f6f6;
   filter: brightness(1);
 }
@@ -439,11 +439,6 @@ ul.fa-ul {
   padding: 10px 50px;
   color: black;
   background-color: white;
-}
-
-#but-white:hover {
-  background-color: #bbbbbb;
-  filter: brightness(1);
 }
 
 .faq {
